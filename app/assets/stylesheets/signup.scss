@@ -1,0 +1,122 @@
+
+ .signup-main-logo {
+    height:55px;
+    width: 300px;
+    border-width:0px;
+    background-image: image-url('login_logo.png');
+    background-size: 270px 55px;
+    background-repeat: no-repeat;
+ }
+
+ .signup-logo-photos {
+    content: image-url('photos_logo.png');
+   
+ }
+
+ .signup-logo-share {
+    content: image-url('share_logo.png');
+   
+ }
+
+ .signup-logo-find-more {
+    content: image-url('find_more_logo.png');
+   
+ }
+ .signup-nav-bar {
+     width: 100%;
+     height: 80px;
+     background:linear-gradient(#4A66A0, #3B5998);
+     color: white;
+ }
+
+ .signup-nav-bar-content {
+    max-width: 1200px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ 
+ 
+ .signup-main-content {
+    max-width: 1200px;
+    margin: auto;
+
+     
+ }
+ 
+ .signup-main-content-mid {
+     display: flex;
+     justify-content: center;
+     margin-top: 80px;
+ }
+ 
+ .signup-left-bar {
+     width: 565px;
+     
+ }
+ 
+ .left-bar-list > * {
+     margin-top: 30px;
+ }
+ 
+ 
+ 
+ .left-bar-list-element {
+     display:flex;
+     align-items: center;
+ }
+ 
+ .signup-right-bar {
+     margin-left:75px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .sign-up-button{
+     width:150px;
+     height:50px;
+     border-radius: 10px;
+     background:linear-gradient(#79bc64, #578843);
+     color: white;
+ }
+ 
+ .signup-form > * {
+     margin-top:15px;
+ }
+
+ .errors-ul {
+     list-style: none;
+     color:red;
+ 
+   }
+
+   .errors-ul > * {
+       padding:4px;
+   }
+
+   .signup-form > label {
+       margin-top: 15px;
+   }
+
+   .signup-birthday {
+       display: inline-block;
+   }
+
+   .signup-gender {
+    display: inline-block;
+}
+
+    .signin-form > * {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .signin-form-label > * { 
+        padding-left:3px;
+        padding-right:3px;
+        margin-left: 6px;
+    }

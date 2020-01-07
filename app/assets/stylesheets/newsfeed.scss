@@ -1,0 +1,474 @@
+
+
+.newsfeed-sidepanel-profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.newsfeed-sidepanel-text {
+    margin-left: 5px;
+    font-size: 12px; 
+}
+
+.newsfeed-main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top:40px;
+}
+
+.newsfeed-sidepanel-user {
+    margin-bottom: 15px;
+}
+
+.newsfeed-sidepanel {
+    width: 184px;
+    display: flex;
+    flex-direction: column;
+
+    border-left: thick solid rgba(0, 0, 0, 0);
+    
+}
+
+.newsfeed-sidepanel-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+.newsfeed-sidepanel-button:hover{
+    background: white;
+    border-width: 1px;
+    border-color: rgb(160,160,255);
+}
+
+.newsfeed-icon {
+    background-image: image-url('icons.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: -21px -477px;
+    width:20px;
+    height:20px;
+    z-index: 2;
+    display: block;
+}
+
+.messenger-icon {
+    background-image: image-url('icons.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: -113px -369px;
+    width:20px;
+    height:20px;
+    z-index: 2;
+    display: block;
+}
+
+.marketplace-icon {
+    background-image: image-url('icons.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 -477px;
+    width:20px;
+    height:20px;
+    z-index: 2;
+    display: block;
+}
+
+.watch-icon {
+    background-image: image-url('icons.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: -63px -540px;
+    width:20px;
+    height:20px;
+    z-index: 2;
+    display: block;
+}
+
+.create-post-form {
+    background: white;
+    width: 600px;
+    border:1px solid #dddfe2;
+    border-radius: 5px;
+    list-style: none;
+    height: 200px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+}
+
+.create-post-form-input {
+    display: flex;
+    align-items: center;
+    
+    height:130px;
+}
+
+.likes {
+    background-image: image-url('icons3.png');
+    background-position: 0 -1357px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 3;
+    height: 16px;
+    width: 16px;
+}
+
+.like-button-img {
+    background-image: image-url('icons4.png');
+    background-position: -119px -206px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 3;
+    height: 16px;
+    width: 16px;
+}
+
+.post-like-bar-left{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+}
+.likes-num {
+    padding-left: 4px;
+}
+
+.like-button {
+    background-color: #f5f6f7;
+border-color: #ccd0d5;
+color: #4b4f56;
+border-radius: 2px;
+box-sizing: content-box;
+font-size: 12px;
+font-weight: bold;
+justify-content: center;
+padding: 0 8px;
+position: relative;
+text-align: center;
+text-shadow: none;
+vertical-align: middle;
+cursor: pointer;
+display: flex;
+justify-content: space-around;
+align-items:center;
+text-decoration: none;
+white-space: nowrap;
+line-height: 22px;
+width:80px;
+border-width: thin;
+}
+
+.unlike-button {
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 22px;
+    width:80px;
+    border-width: thin;
+
+}
+.post-like-bar {
+    margin-top:5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dddfe2;
+    border-bottom: 1px solid #dddfe2;
+border-radius: 5px 5px 0 0;
+
+}
+
+.create-post-form-header {
+    background: #f5f6f7;
+    width: 595px;
+    border:1px solid #dddfe2;
+    border-radius: 5px 5px 0 0 ;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 30px;
+    color: #4b4f56;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    padding-left:5px;
+}
+
+.create-post-form-input-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.create-post-form-input-image-div {
+    width: 60px;
+    height: 60px;
+    padding-left:10px;
+    margin-right: 3px;
+}
+
+.create-post-form-input-area {
+    outline: none;
+    background: white;
+    border: none;
+    margin-left:5px;
+    padding:5px;
+    font-size: 25px;
+    width: 530px;
+    resize: none;
+}
+
+.create-post-form-footer {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:2px;
+}
+
+.create-post-form-button {
+    border-radius: 0;
+    background: #4267b2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.post {
+    background: white;
+    width: 600px;
+    border:1px solid #dddfe2;
+    border-radius: 5px;
+    list-style: none;
+    margin-top: 40px;
+    min-height: 170px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    
+}
+
+.post-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100px;
+    color: #4267b2;
+    font-size: 18px;
+
+}
+
+.post-header-container {
+    background: white;
+    width: 595px;
+    border:1px solid #dddfe2;
+    border-radius: 5px 5px 0 0 ;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 55px;
+    color: #4b4f56;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    padding-left:5px;
+}
+
+.post-head-container {
+    width:100%; 
+    display: flex;
+    justify-content: space-between
+}
+
+.post-header > a {
+    display: flex;
+}
+
+.profile-link > *{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.post-header > * {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.post-content {
+    padding: 15px;
+    min-height: 50px;
+    width: 570px;
+    border:1px solid #dddfe2;
+    border-radius: 5px 5px 0 0 ;
+    font-size: 25px;
+}
+
+.edit-post-input {
+    font-size: 25px;
+    width:90%;
+    height: 100%;
+}
+
+.post-photo {
+    width:100%;
+    max-height: 600px;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    
+    border-left: 10px solid gray;
+  }
+
+  .post-user-profile-pic {
+    width: 45px;
+    height: 45px;
+}
+
+.post-user-profile-pic-pic {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-create-comment {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.post-form-user-profile-pic {
+    width: 35px;
+    padding-left: 8px;
+    height: 35px;
+}
+
+.post-form-user-profile-pic-pic {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.create-comment-text-input {
+    background-color: #f2f3f5;
+    border:1px solid #dddfe2;
+    border-radius: 16px;
+    line-height: 16px;
+    width: 515px;
+    min-height: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.comments-container {
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.post-comment {
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.comment-image-div {
+    width: 30px;
+    padding-left: 8px;
+    height: 30px;
+}
+
+.comment-image {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment-content-div {
+    background-color: #f2f3f5;
+    border:1px solid #dddfe2;
+    border-radius: 16px;
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.comment-text {
+    padding-left:10px;
+    background: transparent;
+    display: inline-block;
+    border: none;
+    cursor: default;
+    min-width: 100px;
+}
+
+.comment-text-edit {
+    padding-left:6px;
+}
+
+.comment-content-user-name {
+    color: #4267b2;
+    display: flex;
+    align-items: center;
+}
+
+.comment-content-user-name > * {
+    padding-left:4px;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:-40px;
+}
+
+.remove-comment-button {
+    background: none;
+    border:none;
+    text-decoration: underline;
+    color: blue;
+}
